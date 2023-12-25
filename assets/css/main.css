@@ -1622,13 +1622,14 @@
 
 	}
 
-	body {
-		background-color: #935d8c;
-		background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-		background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-		background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-		background-image: url("images/overlay.png"), linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-	}
+body {
+    background-color: #f2f2f2;
+    background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #2c3e50 15%, #34495e 85%);
+    background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #2c3e50 15%, #34495e 85%);
+    background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #2c3e50 15%, #34495e 85%);
+    background-image: url("images/overlay.png"), linear-gradient(45deg, #2c3e50 15%, #34495e 85%);
+    color: #333333;
+}
 
 		body.is-loading *, body.is-loading *:before, body.is-loading *:after {
 			-moz-animation: none !important;
@@ -1647,7 +1648,7 @@
 
 
 	body {
-		background-color: #935d8c;
+		background-color: #f2f2f2;
 		color: rgba(255, 255, 255, 0.65);
 	}
 
@@ -2348,23 +2349,23 @@
 			}
 
 		.icon.style1 {
-			color: #efa8b0;
+			color: #5d5c61;
 		}
 
 		.icon.style2 {
-			color: #c79cc8;
+			color: #379683;
 		}
 
 		.icon.style3 {
-			color: #a89cc8;
+			color: #7395ae;
 		}
 
 		.icon.style4 {
-			color: #9bb2e1;
+			color: #557a95;
 		}
 
 		.icon.style5 {
-			color: #8cc9f0;
+			color: #b1a296;
 		}
 
 		@media screen and (max-width: 1680px) {
@@ -2919,23 +2920,23 @@
 		}
 
 			.statistics li.style1 {
-				background-color: #efa8b0;
+				background-color: #5d5c61;
 			}
 
 			.statistics li.style2 {
-				background-color: #c79cc8;
+				background-color: #7e685a;
 			}
 
 			.statistics li.style3 {
-				background-color: #a89cc8;
+				background-color: #7395ae;
 			}
 
 			.statistics li.style4 {
-				background-color: #9bb2e1;
+				background-color: #557a95;
 			}
 
 			.statistics li.style5 {
-				background-color: #8cc9f0;
+				background-color: #b1a296;
 			}
 
 			.statistics li strong, .statistics li b {
@@ -3570,10 +3571,10 @@
 
 		#main header.major h2:after {
 			background-color: #dddddd;
-			background-image: -moz-linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
-			background-image: -webkit-linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
-			background-image: -ms-linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
-			background-image: linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
+			background-image: -moz-linear-gradient(90deg, #557a95 85%, #557a95 15%);
+			background-image: -webkit-linear-gradient(90deg, #557a95 85%, #557a95 15%);
+			background-image: -ms-linear-gradient(90deg, #557a95 85%, #557a95 15%);
+			background-image: linear-gradient(90deg, #557a95 85%, #557a95 15%);
 		}
 
 		#main table tbody tr {
