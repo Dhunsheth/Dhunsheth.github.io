@@ -1722,7 +1722,7 @@ body {
 		}
 
 	h1, h2, h3, h4, h5, h6 {
-		font-weight: 300;
+		font-weight: 500;
 		line-height: 1.5;
 		margin: 0 0 0.7em 0;
 		letter-spacing: -0.025em;
@@ -2670,7 +2670,7 @@ body {
 	}
 
 	header.major {
-		margin-bottom: 3em;
+		margin-bottom: 1em;
 	}
 
 		header.major h2 {
@@ -2682,7 +2682,7 @@ body {
 				content: '';
 				width: 3.25em;
 				height: 2px;
-				margin: 0.7em 0 1em 0;
+				margin: 0.4em 0 0.4em 0;
 				border-radius: 2px;
 			}
 
@@ -2903,7 +2903,7 @@ body {
 		display: -ms-flex;
 		display: flex;
 		width: 100%;
-		margin: 0 0 3em 0;
+		margin: 0 0 2.5em 0;
 		padding: 0;
 		list-style: none;
 		cursor: default;
@@ -2916,7 +2916,7 @@ body {
 			flex: 1;
 			padding: 1.5em;
 			color: #ffffff;
-			text-align: center;
+			text-align: left;
 		}
 
 			.statistics li.style1 {
